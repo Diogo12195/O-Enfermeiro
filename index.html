@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Enfermeiro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <img src="WhatsApp Image 2024-09-16 at 11.05.35.jpeg" alt="Logo">
+            <h1>O Enfermeiro</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="personagens.html"><i class="fas fa-users"></i> Personagens</a></li>
+                <li><a href="autor.html"><i class="fas fa-pen"></i> Autor</a></li>
+                <li><a href="resenha.html"><i class="fas fa-book"></i> Resenha</a></li>
+                <li><a href="curiosidades.html"><i class="fas fa-info-circle"></i> Curiosidades</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="book-presentation">
+            <div class="book-cover">
+                <img src="https://img.travessa.com.br/livro/GR/93/93e57d8c-bfc5-46ea-8d48-a82f0dcf180c.jpg"
+                    alt="Capa do Livro 'O Enfermeiro'">
+            </div>
+            <div class="intro">
+                <h2>Sobre o Livro</h2>
+                <p>"O Enfermeiro", de Machado de Assis, é um conto que se destaca pela sua crítica mordaz à sociedade da
+                    época. Publicado em 1881, a obra oferece uma visão perspicaz da condição humana através de um enredo
+                    envolvente e personagens complexos. O conto explora temas como a hipocrisia social e a ambiguidade
+                    moral, mostrando a maestria de Machado em capturar a essência da natureza humana. É uma leitura
+                    essencial para quem deseja entender a profundidade e a ironia presente na literatura brasileira.</p>
+                <a href="resenha.html" class="cta-button">Leia Mais</a>
+            </div>
+        </section>
+
+        <section class="summary">
+            <h3>Resumo Completo</h3>
+            <p>No conto, um jovem enfermeiro é encarregado de cuidar de um velho rabugento e autoritário. Com o tempo, o
+                relacionamento entre os dois se intensifica e culmina em um evento inesperado que desafia as fronteiras
+                entre o certo e o errado. Com sua ironia característica, Machado de Assis tece uma narrativa envolvente,
+                provocando o leitor a questionar as noções de moralidade e justiça.</p>
+        </section>
+
+        <section class="testimonials">
+            <h3>O que dizem sobre "O Enfermeiro"</h3>
+            <blockquote>
+                <p>"Uma obra-prima que desafia os conceitos morais de sua época e permanece atual." - Crítico Literário
+                </p>
+            </blockquote>
+            <blockquote>
+                <p>"Machado de Assis nos brinda com uma narrativa irônica e profundamente humana." - Leitor Anônimo</p>
+            </blockquote>
+        </section>
+
+        <section class="facts">
+            <h3>Curiosidades sobre "O Enfermeiro"</h3>
+            <ul>
+                <li>Publicação: 1881</li>
+                <li>Temas principais: Moralidade, culpa e responsabilidade.</li>
+                <li>Machado de Assis é considerado o maior escritor brasileiro de todos os tempos.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>&copy; 2024 O Enfermeiro. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        document.addEventListener('scroll', function () {
+            const introSection = document.querySelector('.intro');
+            const scrollPosition = window.scrollY + window.innerHeight;
+
+            if (scrollPosition > introSection.offsetTop) {
+                introSection.classList.add('appear');
+            }
+        });
+    </script>
+</body>
+
+</html>
